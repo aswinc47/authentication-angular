@@ -27,7 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.js"]
           },
           "configurations": {
             "production": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "88dc9a51-c5e5-49f9-8b91-5e1a3a73d4fc"
   }
 }

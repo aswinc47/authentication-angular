@@ -1,0 +1,9 @@
+<div class="w-50 container my-5">
+    <h1>Login</h1>
+    <form [formGroup]="LoginFormGroup" (submit)="login()" >
+        <input formControlName="email" type="email" class="form-control my-2" placeholder="Email address">
+        <input formControlName="password" type="password" placeholder="Password" class="form-control my-2">
+        <button class="btn btn-warning me-4">Login</button>
+        <a routerLink="/auth/register">Create an account?</a>
+    </form>
+</div>
